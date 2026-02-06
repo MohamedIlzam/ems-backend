@@ -23,5 +23,5 @@ public class Employee {
     @Column(name = "last_name")
     private String lastName;
     @Column(name = "email_id", nullable = false, unique = true)
-    private String emailId;
+    private String email;
 }
